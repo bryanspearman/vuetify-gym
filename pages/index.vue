@@ -1,6 +1,16 @@
 <template>
-  <div>    
-    <Hero backgroundImg="/images/header-img.jpg" bgPosition="center" bgSize="cover" title="title of the page" titleColor="white" height="350px" />  
+  <div> 
+    <v-parallax
+      src="/images/header-img.jpg"
+      style="background-position: top; background-size: cover; background-repeat: no-repeat; height: 350px; margin: 0; padding: 0; position: relative;"
+    >
+      <div 
+        :class="`text-center text-lg-left text-h5 text-sm-h4 text-lg-h3 text-xl-h2 pl-lg-14 font-weight-bold white--text text-uppercase`" 
+        :style="$vuetify.breakpoint.mdAndUp ? 'position: absolute; bottom: 0; width:100%; margin-bottom: -9px;' : 'position: absolute; bottom: 0; width:100%; margin-bottom: -8px;'"     
+      >
+        title of the page
+      </div>  
+    </v-parallax>   
      <v-row align="stretch" justify="center"  class="text-body-1" no-gutters>
       <v-col class="pa-8 pa-xl-10 bg-eggshell-20">
         <h2 class="text-h5">Medium Heading For You</h2>

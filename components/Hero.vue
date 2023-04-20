@@ -1,6 +1,6 @@
 <template>  
   <v-parallax
-    :src="`${backgroundImg}`"
+    :src="`https://source.unsplash.com/random/1024x768/?${searchTerms}`"
     :style="`      
       background-position: ${bgPosition}; 
       background-size: ${bgSize}; 
@@ -26,7 +26,7 @@
 
   export default {
     props: {
-      backgroundImg: {
+      searchTerms: {
         type: String,
         required: false,
         default: ''
@@ -56,6 +56,6 @@
         required: false,
         default: "white"
       }
-    }    
+    }
   };
 </script>

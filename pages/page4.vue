@@ -1,6 +1,6 @@
 <template>
   <div>
-  <hero backgroundImg="https://source.unsplash.com/random/1024x768/?rapids" bgPosition="center" title="cold water survival"/>
+  <hero searchTerms="rapids" bgPosition="center" title="cold water survival"/>
   <v-row align="stretch" justify="center" no-gutters>
       <v-col class="pa-8 pa-xl-10 bg-eggshell-20">
         <h2 class="text-h6">Medium Heading For You</h2>

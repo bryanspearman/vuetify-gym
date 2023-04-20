@@ -26,11 +26,13 @@ export default {
   plugins: [
   ],
 
-  loadingIndicator: {
-    name: 'cube-grid',
-    color: 'black',
-    background: 'radial-gradient(circle at center, white, rgba(0,0,0,.2))'
-  },
+  loading: '@/components/LoadingAnimation.vue',
+
+  // loadingIndicator: {
+  //   name: 'cube-grid',
+  //   color: 'black',
+  //   background: 'radial-gradient(circle at center, white, rgba(0,0,0,.2))'
+  // },
   
   components: true,
   
@@ -56,6 +58,7 @@ export default {
           error: '#E65100',
           success: '#7CB342'
         }
+
       }
     }
   },
