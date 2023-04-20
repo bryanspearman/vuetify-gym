@@ -49,7 +49,7 @@ export default {
       themes: {
         light: {
           primary: '#eaf2f7',
-          accent: '#BCAAA4',
+          accent: '#e6dfd8',
           secondary: '#f6f3f0',
           info: '#FFF8E1',
           warning: '#FFEA00',

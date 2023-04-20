@@ -1,11 +1,11 @@
 <template>  
-  <div
-    :style="`
-      background-image: url('${backgroundImg}'); 
+  <v-parallax
+    :src="`${backgroundImg}`"
+    :style="`      
       background-position: ${bgPosition}; 
       background-size: ${bgSize}; 
       background-repeat: no-repeat;
-      height: ${height};
+      height: ${height};      
       margin: 0;
       padding: 0;
       position: relative;
@@ -17,7 +17,7 @@
     >
       {{ title }}
     </div>  
-  </div> 
+  </v-parallax> 
 </template>
 
 <script>
