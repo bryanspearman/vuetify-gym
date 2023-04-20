@@ -1,0 +1,44 @@
+.bg-faint-blue {
+  background: #eaf2f7;
+}
+
+.bg-eggshell {
+  background: rgb(246 243 240 / 100%)
+}
+
+.bg-eggshell-80 {
+  background: rgb(246 243 240 / 80%)
+}
+
+.bg-eggshell-60 {
+  background: rgb(246 243 240 / 60%)
+}
+
+.bg-eggshell-40 {
+  background: rgb(246 243 240 / 40%)
+}
+
+.bg-eggshell-20 {
+  background: rgb(246 243 240 / 20%)
+}
+
+.nav-style {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+  background: linear-gradient(to bottom, rgb(255 255 255 / 50%), rgb(246 243 240 / 100%));
+}
+
+.tab-active {  
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);  
+  background: linear-gradient(to bottom, #f0f6f9, #eaf2f7);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.4s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
