@@ -40,16 +40,6 @@
       ErrorOther, 
       LoadingAnimation,
       StopWatch
-    },
-    data() {
-      return {
-
-      }
-    },
-    computed: {},
-    watch: {},
-    created() {},
-    mounted() {},
-    methods: {},
+    }
   };
 </script>
